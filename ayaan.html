@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Selling Website</title>
+    <link rel="stylesheet" href="ayaan.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#cars">Cars for Sale</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+             <h2>Find Your Perfect Car</h2>
+            <p>Browse through our collection of new and used cars for sale.</p>
+        </div>
+    </section>
+
+    <!-- Cars for Sale Section -->
+    <section id="cars" class="cars">
+        <h2>Featured Cars</h2>
+        <div class="car-listings">
+            <!-- Example of a car card -->
+            <div class="car-card">
+                <img src="images/honda.jpg" alt="Car 1">
+                <h3>2020 Honda Civic</h3>
+                <p>$22,000</p>
+                <button onclick="viewCarDetails('Honda Civic')">View Details</button>
+            </div>
+
+            <div class="car-card">
+                <img src="images/toyota.jpg" alt="Car 2">
+                <h3>2019 Toyota Crown</h3>
+                <p>$25,500</p>
+                <button onclick="viewCarDetails('Toyota Camry')">View Details</button>
+            </div>
+
+            <div class="car-card">
+                <img src="images/bmw.jpg" alt="Car 3">
+                <h3>2021 BMW X5</h3>
+                <p>$45,000</p>
+                <button onclick="viewCarDetails('BMW X5')">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you're interested in any of these cars, feel free to contact us!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CarShop. All rights reserved.</p>
+    </footer>
+
+    <script src="ayaan.js"></script>
+</body>
+</html>

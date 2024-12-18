@@ -1,0 +1,176 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header/Navbar */
+header {
+    background-color: gray;
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+header .logo img {
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+header .nav-links li {
+    margin-right: 20px;
+}
+
+header .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+    background: url('New folder/images/gg.jpg');
+    background-size: covers;
+    color: black;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero .cta-button {
+    padding: 10px 20px;
+    background-color: gray;
+    color: purple;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+/* Cars for Sale Section */
+.cars {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: gray;
+}
+
+.cars h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.car-listings {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.car-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.car-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.car-card h3 {
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+
+.car-card p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.car-card button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.car-card button:hover {
+    background-color: blue;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input, .contact form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact form button {
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #e67e22;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
